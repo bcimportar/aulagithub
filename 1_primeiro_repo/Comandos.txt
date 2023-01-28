@@ -121,3 +121,8 @@
 #Aula 50 Atualizando submodule
   git add .  git commit -am "m"
   git push --recurse-submodules=on-demand    => atualizando o submodule
+
+
+#Aula 53 Exibindo Detalhes da Branch e Tags 
+  git show                    => Apresenta os detalhes da branch
+  
