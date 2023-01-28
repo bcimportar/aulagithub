@@ -124,5 +124,10 @@
 
 
 #Aula 53 Exibindo Detalhes da Branch e Tags 
-  git show                    => Apresenta os detalhes da branch
+  git show                    => Mostra os detalhes da branch
+  git show v4.0               => Mostra os detalhes da tag
+
   
+#Aula 54 Exibindo Diferença da Branch e Tags 
+  git diff                    => Mostra os diferença da branch
+       
