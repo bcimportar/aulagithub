@@ -143,6 +143,9 @@
   #Aula 60 Checando a integridade dos arquivos
     git fsck         -Verificando arquivos corrompidos
 
-  #Aula 61 Reflog 
+  #Aula 61 Reflog  (Serve para navegar e arrumar os codigos nos commits)
     git reflog       - Verifica todos os logs do repositorio
     git log          - Verifica os detalhes 
+
+  #Aula 62  Transformando o repo para arquivo
+     git archive --format zip --output arquivos_master.zip  = Transformando master em zip
