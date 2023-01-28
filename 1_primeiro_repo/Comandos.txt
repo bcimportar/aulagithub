@@ -131,3 +131,7 @@
 #Aula 54 Exibindo Diferença da Branch e Tags 
   git diff                    => Mostra os diferença da branch
        
+  
+#Aula 55 Log resumido 
+  git shortlog                    => Mostra alterações na branch ( nomes do commits)
+         
