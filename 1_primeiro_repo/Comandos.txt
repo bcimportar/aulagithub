@@ -119,23 +119,30 @@
     git submodule add (link do submodule(gitHub))    => adiciona o submodule
 
   #Aula 50 Atualizando submodule
-  git add .  git commit -am "m"
-  git push --recurse-submodules=on-demand    => atualizando o submodule
+   git add .  git commit -am "m"
+   git push --recurse-submodules=on-demand    => atualizando o submodule
 
   #Aula 53 Exibindo Detalhes da Branch e Tags 
-  git show                    => Mostra os detalhes da branch
-  git show v4.0               => Mostra os detalhes da tag
+   git show                    => Mostra os detalhes da branch
+   git show v4.0               => Mostra os detalhes da tag
   
   #Aula 54 Exibindo Diferença da Branch e Tags 
-  git diff                    => Mostra os diferença da branch
+   git diff                    => Mostra os diferença da branch
         
   #Aula 55 Log resumido 
-  git shortlog                    => Mostra alterações na branch ( nomes do commits)
+   git shortlog                    => Mostra alterações na branch ( nomes do commits)
          
   #Aula 58 Limpando arquivos Untracked  
     (Verificar primeiro os arquivo que você precisa e usa add .)
     (depois limpa os untracked)
      git clean -f            => Limpando os untracked
 
-   #Aula 59 Otimizando o repositorio
-     
+  #Aula 59 Otimizando o repositorio
+     git gc           -Removendo arquivo desnecessarios
+
+  #Aula 60 Checando a integridade dos arquivos
+    git fsck         -Verificando arquivos corrompidos
+
+  #Aula 61 Reflog 
+    git reflog       - Verifica todos os logs do repositorio
+    git log          - Verifica os detalhes 
