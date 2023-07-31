@@ -138,23 +138,23 @@ Seção 4 Compatilhamento e atualizações de repositorios
   #Aula 56 Log de atividade resumido
    git shortlog                => Mostra alterações na branch ( nomes do commits) (Enter para verificar tudo)
         
-#Seção 6 Adminstração de repositorio         
+#Seção 6 Administração de repositorio         
   #Aula 58 Limpando arquivos Untracked  
-    (Verificar primeiro os arquivo que você precisa e usa add .)
+    (Verificar primeiro os arquivo qugie você precisa e usa add .)
     (depois limpa os untracked)
      git clean -f            => Limpando os untracked => Remove  os arquivos criandos
 
   #Aula 59 Otimizando o repositorio
-     git gc           -Removendo arquivo desnecessarios
+     git gc          => Removendo arquivo desnecessários (garbet collection) no  repositário
 
   #Aula 60 Checando a integridade dos arquivos
-    git fsck         -Verificando arquivos corrompidos
+     git fsck         => Verificando arquivos corrompidos
 
   #Aula 61 Reflog  (Serve para navegar e arrumar os codigos nos commits)
-    git reflog       - Verifica todos os logs do repositorio
-    git log          - Verifica os detalhes 
+     git reflog       => Verifica todos os logs do repositorio
+     git log          => Verifica os detalhes 
 
   #Aula 62  Transformando o repo para arquivo
-     git archive --format zip --output arquivos_master.zip  = Transformando master em zip
+     git archive --format zip --output arquivos_master.zip  => Transformando master em zip
 
- #Aula 63 Comprimindo o repositorio
+  #Aula 63 Comprimindo o repositorio
