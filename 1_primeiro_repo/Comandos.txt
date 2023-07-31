@@ -154,7 +154,7 @@ Seção 4 Compatilhamento e atualizações de repositorios
      git reflog       => Verifica todos os logs do repositorio (Mapea todas ações que foram feitas)
      git log          => Verifica os detalhes 
 
-  #Aula 62  Transformando o repo para arquivo
-     git archive --format zip --output arquivos_master.zip  => Transformando master em zip
+  #Aula 62  Transformando o repoistorio para arquivo Zip
+     git archive --format zip --output arquivos_master.zip  => Transformando master em zip e salva no projeto 
 
   #Aula 63 Comprimindo o repositorio
