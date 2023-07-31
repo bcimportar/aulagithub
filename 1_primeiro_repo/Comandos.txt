@@ -151,7 +151,7 @@ Seção 4 Compatilhamento e atualizações de repositorios
      git fsck         => Verificando arquivos corrompidos
 
   #Aula 61 Reflog  (Serve para navegar e arrumar os codigos nos commits)
-     git reflog       => Verifica todos os logs do repositorio
+     git reflog       => Verifica todos os logs do repositorio (Mapea todas ações que foram feitas)
      git log          => Verifica os detalhes 
 
   #Aula 62  Transformando o repo para arquivo
