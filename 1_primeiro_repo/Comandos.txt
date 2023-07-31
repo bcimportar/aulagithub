@@ -142,7 +142,7 @@ Seção 4 Compatilhamento e atualizações de repositorios
   #Aula 58 Limpando arquivos Untracked  
     (Verificar primeiro os arquivo que você precisa e usa add .)
     (depois limpa os untracked)
-     git clean -f            => Limpando os untracked
+     git clean -f            => Limpando os untracked => Remove  os arquivos criandos
 
   #Aula 59 Otimizando o repositorio
      git gc           -Removendo arquivo desnecessarios
